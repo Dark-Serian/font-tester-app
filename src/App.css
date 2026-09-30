@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+  height: 1000px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@font-face {
+  font-family: "dirooz";
+  src: url(fonts/Dirooz.ttf);
+}
+@font-face {
+  font-family: "zar" ;
+  src: url(fonts/B\ Zar_0.ttf);
+}
+@font-face {
+  font-family: "titr";
+  src: url(fonts/B\ Titr\ Bold_0.ttf);
+}
+@font-face {
+  font-family: "entezar";
+  src: url(fonts/EntezarC3_v2.0.1.ttf);
+}
+@font-face {
+  font-family: "asghar";
+  src: url(fonts/Far_Ashgar.ttf);
+}
+@font-face {
+  font-family: "nastaliq";
+  src: url(fonts/IranNastaliq.ttf);
+}
+@font-face {
+  font-family: "barik";
+  src: url(fonts/Mj_Barik.ttf);
+}
+@font-face {
+  font-family: "tail";
+  src: url(fonts/Mj_Tail\ Mediom_0.ttf);
+}
+.fonts{
+  font-size: 60px;
+  font-family: "dirooz";
+}
+#font-input{
+  width:500px;
+  height:50px;
+  font-size: 30px;
+  text-align: right;
+}
+#font-1{
+  font-size: 30px;
+  font-family: "titr";
+}
+#font-2{
+  font-size: 30px;
+  font-family: "zar";
+}
+#font-3{
+  font-size: 30px;
+  font-family: "dirooz";
+}
+#font-4{
+  font-size: 30px;
+  font-family: "entezar";
+}
+#font-5{
+  font-size: 30px;
+  font-family: "asghar";
+}
+#font-6{
+  font-size: 30px;
+  font-family: "nastaliq";
+}
+#font-7{
+  font-size: 30px;
+  font-family: "barik";
+}
+#font-8{
+  font-size: 30px;
+  font-family: "tail";
+}
+#selecter{
+  font-size: 30px;
+  margin-left: 10px;
+  height: 50px;
+  width: 200px;
+  text-align: right;
+  border: none;
+}
+#size-input{
+  width: 400px;
+  height: 50px;
+  font-size: 30px;
+  text-align: right;
+  margin-right: 10px;
+}
+a{
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 1000px;
+  font-family: "dirooz";
+}
+
+
